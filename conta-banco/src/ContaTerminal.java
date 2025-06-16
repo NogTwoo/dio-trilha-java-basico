@@ -10,6 +10,6 @@ public class ContaTerminal {
        var clientName = scanner.next();
        System.out.println("Por favor, digite o saldo disponível: \n");
        var balance = scanner.nextFloat();
-      System.out.println("\n 1Olá " + clientName + ", obrigado por criar uma conta, sua agência é " + agency + ", conta " + number + " e seu saldo R$" + balance + " já está disponível para saque");
+      System.out.println("\n Olá " + clientName + ", obrigado por criar uma conta, sua agência é " + agency + ", conta " + number + " e seu saldo R$" + balance + " já está disponível para saque");
     }
 }
